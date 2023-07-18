@@ -1,0 +1,27 @@
+.button{width: 128px; display: block;
+position: relative;}
+
+body{background-image: url('./texture/stone.png');}
+
+table{
+    border-spacing: 20px;
+    margin: auto;
+}
+
+.final{
+    width: 660px;
+    position: absolute;
+}
+p{
+    font-family: 'Minecraft';
+    color: white;
+    padding: auto;
+    background-color: rgb(0, 0, 0);
+    font-size: 30px;
+    line-height: 40px;
+}
+
+@font-face {
+font-family: "Minecraft";
+src: url("./font/minecraft.ttf");
+}
